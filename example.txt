@@ -1,0 +1,36 @@
+     {
+       turtle(id: 1) {
+        id, 
+        name,
+        color,
+        weapon { 
+          id,
+          name,
+          dps
+        },
+        favouritePizza { 
+          id, 
+          name,
+          colories
+        },
+        secondFavouritePizza { 
+        	id, 
+          name,
+          colories
+        }
+      },
+      turtles {
+        id,
+        name
+      },
+      weapon(id: 2) {
+        id,
+        name,
+        dps
+      },
+      weapons {
+        id,
+        name,
+        dps
+      }
+     }
